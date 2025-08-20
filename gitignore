@@ -1,4 +1,4 @@
-```gitignore
+
 # .gitignore para MechBot 2.0x
 
 # ━━━━━━━━━━━━━━━━━━━━━━
@@ -76,43 +76,3 @@ bower_components/
 # ━━━━━━━━━━━━━━━━━━━━━━
 !.keep
 !.gitkeep
-```
-
-### Explicación por secciones:
-
-1. **Protección de datos sensibles**:
-   - Excluye archivos de configuración privada y credenciales
-   - Incluye patrones comunes para variables de entorno
-
-2. **Estructura del proyecto**:
-   - Ignora outputs generados pero mantiene estructura de directorios (con .keep)
-   - Excluye datos temporales de procesamiento
-
-3. **Optimización para marketing**:
-   - Ignora assets gráficos temporales
-   - Mantiene limpios los reportes generados automáticamente
-
-4. **Entornos de desarrollo**:
-   - Configuraciones específicas de IDEs
-   - Entornos virtuales de Python
-
-5. **Compatibilidad multiplataforma**:
-   - Archivos temporales de sistemas operativos
-   - Metadatos no esenciales
-
-### Recomendaciones adicionales:
-
-1. Para mantener carpetas vacías en el repositorio:
-   ```bash
-   touch dashboards/output/.keep templates/output/.keep
-   ```
-
-2. Para verificar qué archivos se ignorarán:
-   ```bash
-   git check-ignore -v *
-   ```
-
-¿Necesitas que agregue alguna regla específica para:
-- Archivos de herramientas de análisis (Google Analytics, Hotjar)?
-- Configuraciones de servicios cloud (AWS, GCP)?
-- Formatos específicos de diseño gráfico?
