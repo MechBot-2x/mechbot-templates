@@ -3,3 +3,4 @@
   --target=jetson-agx-orin \
   --image=firmware_v2.1.8.signed.img \
   --verify-signature \
+  --backup=create
