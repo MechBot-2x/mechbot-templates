@@ -49,7 +49,7 @@ opentelemetry-sdk==1.24.0
 # Utilidades
 # --------------------------------------------
 loguru==0.7.2
-python-dotenv==1.0.1
+python-dotenv==1.2.2
 typing-extensions==4.11.0
 
 # --------------------------------------------
